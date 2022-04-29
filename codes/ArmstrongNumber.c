@@ -1,3 +1,5 @@
+// Program to test whether input number is an armstrong or not
+
 #include <stdio.h>
 int main() {
   int n;
