@@ -30,7 +30,8 @@ int main(){
             }
         }
     }
+    printf("--------Results----------\n");
     for (int j=0;j<8;j++){
-        printf("%d Notes: %d\n", ar[j],no[j]);
+        printf("Rs. %d Notes: \t %d\n", ar[j],no[j]);
     }
 }

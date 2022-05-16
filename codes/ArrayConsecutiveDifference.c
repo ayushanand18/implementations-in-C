@@ -14,7 +14,7 @@ int main(){
         s=s+diff;
     }
     int a = sqrt(s);
-    if(a==s){
+    if(a==s){ // we must also check if its perfect square already.
         printf("%d is already a perfect square.\n",s);
     }
     else{
