@@ -12,7 +12,7 @@ void main()
 {
     int n = 5;
     int v=1,i=0,j=-n;
-    while((i>=0) && (i<=n+1)){
+    while((i>=0) && (i<=n)){
         for (int j=-n;j<=n;j++){
             if (j>=-i && j<=i){
                 printf("*");
