@@ -53,3 +53,4 @@ dkms.conf
 
 # executable files inside codes
 codes/*.out
+algorithms/*.out
