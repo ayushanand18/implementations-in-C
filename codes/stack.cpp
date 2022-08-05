@@ -2,31 +2,30 @@
 using namespace std;
 class stack{
     private:
-        int *stacks;
-        
+        int stacks[10];
+        int top=-1;
     public:
-        stack(){
-            stacks = NULL;
-            stacks++;
-        }
         void push(int x){
-            stacks++;
-            *stacks = x;
+            top++;
+            stacks[top]=x;
+            cout <<" -- " << top << endl;
         }
         void pop(){
-            stacks = NULL;
-            stacks--;
+            top--;
         }
         void display(){
-            while(stacks!=NULL){
-                cout << *stacks;
-                stacks--;
+            for(int i=0;i<=top;i++)
+            {
+                cout << stacks[i] << " ";
+                i++;
             }
         }
 };
 int main(){
     stack s;
     s.push(1);
+    s.push(2);
+    s.push(2);
     s.push(2);
     s.display();
     cout<<"\n"<<endl;
