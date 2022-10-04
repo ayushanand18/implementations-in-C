@@ -4,13 +4,18 @@ This repository contains implementations of most common questions and algorithms
 ## Instructions
 + Navigate to the folder `codes` to view the files
 + The name of the file describes the implementation.
-
+----
 ## Algorithms
 ### Sorting
 + [bubble sort](./algorithms/sorting/bubble_sort.c)
 + [insertion sort](./algorithms/sorting/insertion_sort.c)
 + [quicksort](./algorithms/sorting/quicksort.c)
 + [selection sort](./algorithms/sorting/selection_sort.c)
+### Other algorithms
++ [binary search](./algorithms/binary_search.c)
++ [euclidean algorithm](./algorithms/euclidean_algorithm.c)
+
+----
 
 ## Codes
 ### Patterns
@@ -23,7 +28,7 @@ This repository contains implementations of most common questions and algorithms
 + [doubly linked list](./codes/data-structures/DoublyLinkedList.c)
 + [linked list all operations](./codes/data-structures/LinkedListAllOperations.c)
 + [reverse a linked list](./codes/data-structures/ReverseALinkedList.c)
-+ [stack implementation using array](./codes/data-structures/Stack.c) <- work here
++ [stack implementation using array](./codes/data-structures/Stack.c) <- **work on this**
 
 ### Other Questions
 + [armstrong number](./codes/ArmstrongNumber.c)
