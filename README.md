@@ -28,7 +28,7 @@ This repository contains implementations of most common questions and algorithms
 + [doubly linked list](./codes/data-structures/DoublyLinkedList.c)
 + [linked list all operations](./codes/data-structures/LinkedListAllOperations.c)
 + [reverse a linked list](./codes/data-structures/ReverseALinkedList.c)
-+ [stack implementation using array](./codes/data-structures/Stack.c) <- **work on this**
++ [stack implementation using array](./codes/data-structures/Stack.c)
 
 ### Other Questions
 + [armstrong number](./codes/ArmstrongNumber.c)
